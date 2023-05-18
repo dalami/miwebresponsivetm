@@ -27,26 +27,32 @@ header{
     background-color: aqua;
     display: flex;
     justify-content: space-evenly;
+    height: 3rem;
 }
 .hero{
     background-color: aquamarine;
     display: flex;
+    height: 80vh;
 }
 .seccionDos{
+    padding: 4.5rem 0;
     background-color: cadetblue;
     display: flex;
     flex-direction: column;
 }
 
 .ourvision{
+    padding: 4.5rem 0;
     background-color: coral;
     display: flex;
 }
 
 .pasos{
+    padding: 4.5rem 0;
     background-color: darkolivegreen;
 }
 .chose{
+    padding: 4.5rem 0;
     background-color: darkgoldenrod;
     display: flex;
 }
