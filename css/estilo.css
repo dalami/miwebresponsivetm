@@ -51,9 +51,18 @@ header{
 }
 
 /* subcontenedores de los principales*/
-.seccionDos .contenedorCards{
+/* .seccionDos .contenedorCards{
     display: flex;
 }
-.seccionDos .alineardeaDos{
+ .pasos .contenedorPasos{
+    display: flex;
+ } */
+
+/*seccion para las clases*/
+.alineardeaDos{
     display:flex;
+}
+
+.contenedordeCuatro{
+    display: flex;
 }
