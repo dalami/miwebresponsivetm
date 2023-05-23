@@ -19,9 +19,7 @@ ul{
 img{
     width: 25%;
 }
-input{
-    
-}
+
 
 /* estilando los contenedores principales*/
 
@@ -126,3 +124,36 @@ header a:hover{
 .contenedorNumeros{
     display: flex;
 }
+
+@media(max-width:768px){
+ .hero img{
+    display: none;
+ }   
+ .contenidoHero{
+    flex-basis: auto;
+ }
+}
+
+/* desktop==> pc monitor */
+
+@media screen and (min-width:1024px){
+    body{
+        background-color: red;
+    }
+}
+
+/*tablet*/
+@media screen and (min-width:768px) and (max-width:1023px){
+    body{
+        background-color: blue;
+    }
+}
+
+/*celular*/
+@media screen and (max-width:767px){
+body{
+    background-color: green;
+}
+}
+
+ 
