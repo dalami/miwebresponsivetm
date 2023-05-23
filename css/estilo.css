@@ -19,20 +19,30 @@ ul{
 img{
     width: 25%;
 }
-
+input{
+    
+}
 
 /* estilando los contenedores principales*/
 
+main{
+    width: 90%;
+    margin: 0 auto;
+}
 header{
     background-color: aqua;
     display: flex;
     justify-content: space-evenly;
     height: 3rem;
+    align-items: center;
 }
 .hero{
-    background-color: aquamarine;
     display: flex;
     height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   
 }
 .seccionDos{
     padding: 4.5rem 0;
@@ -56,6 +66,10 @@ header{
     background-color: darkgoldenrod;
     display: flex;
 }
+.contenidoHero{
+    background-color: red;
+    flex-basis: 60%;
+}
 
 /* subcontenedores de los principales*/
 /* .seccionDos .contenedorCards{
@@ -65,11 +79,50 @@ header{
     display: flex;
  } */
 
+/* estilos para las etiquetas de los contenedores */
+header h2{
+    font-size: 3rem;
+    color: white;
+}
+header a{
+    margin-left: 2rem;
+    /* background-color: red; */
+}
+
+.contenidoHero h1{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+.contenidoHero p{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+
+}
+.contenidoHero input{
+    
+    margin-bottom: 3rem;
+    border: none;
+    padding:2rem 0; 
+    border-radius: 25rem;
+    width: 25rem;
+
+}
+
+/*hovers*/
+header a:hover{
+    background-color: blue;
+}
+
+
 /*seccion para las clases*/
 .alineardeaDos{
     display:flex;
 }
 
 .contenedordeCuatro{
+    display: flex;
+}
+
+.contenedorNumeros{
     display: flex;
 }
